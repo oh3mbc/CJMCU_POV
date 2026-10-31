@@ -1,4 +1,4 @@
-#ESP32S & CJMCU-2812-8 Stationary True POV Display Guide
+# ESP32S & CJMCU-2812-8 Stationary True POV Display Guide
 
 This project utilizes an ESP32S and a CJMCU-2812-8 (8-bit addressable WS2812B RGB LED stick) to create a Stationary True POV (Persistence of Vision) display. Instead of relying on a spinning motor, it flashes patterns at an ultra-high frequency, leaving a temporary afterimage of text in the human retina when the user rapidly sweeps their eyes or shakes their head back and forth across the static LED stick. 
 
@@ -6,7 +6,7 @@ The device functions as an independent WiFi Access Point (AP) with an integrated
 
 ---
 
-##Hardware Connections & Wiring
+## Hardware Connections & Wiring
 
 Since addressable WS2812B LEDs require a stable 5V logic reference to operate reliably at peak brightness, connect the power rail directly to the 5V input of the ESP32S.
 
